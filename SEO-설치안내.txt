@@ -1,12 +1,5 @@
-이레컴 SEO 홈페이지 설치 안내
-
-사용 도메인: https://irecom.co.kr/
-
-1. 이 폴더의 index.html을 웹호스팅의 공개 폴더에 업로드합니다.
-2. robots.txt와 sitemap.xml도 같은 공개 폴더에 업로드합니다.
-3. 브라우저에서 https://irecom.co.kr/ 접속을 확인합니다.
-4. Google Search Console에 사이트를 등록하고 sitemap.xml을 제출합니다.
-5. 네이버 서치어드바이저에 사이트를 등록하고 사이트맵을 제출합니다.
-6. Bing Webmaster Tools에도 사이트를 등록하고 sitemap.xml을 제출합니다.
-
-중요: 도메인 등록과 웹호스팅 연결이 먼저 완료되어야 실제 인터넷 주소로 접속할 수 있습니다.
+이레컴 GitHub Pages 설치
+1. ZIP 압축을 풀고 index.html, robots.txt, sitemap.xml, assets 폴더 전체를 GitHub 저장소 루트에 교체 업로드합니다.
+2. 현재 canonical/sitemap은 https://irecomas.github.io/ 기준입니다.
+3. 추후 irecom.co.kr 연결이 완료되면 canonical, sitemap, JSON-LD URL을 새 도메인으로 변경합니다.
+4. 홈페이지 교체가 끝나면 Google Search Console, 네이버 서치어드바이저, Bing Webmaster Tools 등에 등록하고 sitemap을 제출합니다.

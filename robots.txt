@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://irecom.co.kr/sitemap.xml
+Sitemap: https://irecomas.github.io/sitemap.xml
