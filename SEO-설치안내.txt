@@ -1,5 +1,0 @@
-이레컴 GitHub Pages 설치
-1. ZIP 압축을 풀고 index.html, robots.txt, sitemap.xml, assets 폴더 전체를 GitHub 저장소 루트에 교체 업로드합니다.
-2. 현재 canonical/sitemap은 https://irecomas.github.io/ 기준입니다.
-3. 추후 irecom.co.kr 연결이 완료되면 canonical, sitemap, JSON-LD URL을 새 도메인으로 변경합니다.
-4. 홈페이지 교체가 끝나면 Google Search Console, 네이버 서치어드바이저, Bing Webmaster Tools 등에 등록하고 sitemap을 제출합니다.
