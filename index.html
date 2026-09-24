@@ -41,6 +41,37 @@ footer{background:#052b5b;color:#cfe3fb;padding:34px 0 70px}.footer-keywords{fon
 @media(max-width:1050px){.location-box{grid-template-columns:1fr}.location-photo{min-height:330px}}
 @media(max-width:680px){.location-photo{min-height:270px}.location-info{padding:23px}.location-info h3{font-size:23px}.location-address{font-size:15px}}
 
+
+/* CLEAN HERO LAYOUT - based on requested reference */
+header{height:78px;box-shadow:0 1px 0 #edf2f8}
+.logo{font-size:31px}
+nav{gap:42px;font-size:16px}
+.hero{background:#eef8ff}
+.hero-grid{min-height:595px;grid-template-columns:1fr 1.12fr}
+.hero-copy{padding:62px 25px 110px 18px;position:relative;z-index:2}
+.eyebrow{font-size:21px}
+.hero h1{font-size:clamp(48px,5.4vw,78px);margin:12px 0 20px}
+.hero-desc{font-size:20px;line-height:1.55}
+.hero-photo{min-height:595px}
+.hero-badges{margin-top:27px}
+.badge{padding:9px 16px}
+.service-bar{position:relative;z-index:5;margin:-64px auto 0;border-radius:18px;padding:24px 30px;box-shadow:0 12px 30px #0754bc25}
+.service{padding:0 24px}
+.trust{padding:52px 0 38px}
+.trust-grid{gap:8px}
+.trust-item{padding:8px 28px}
+.location-box{grid-template-columns:.82fr 1.18fr;gap:24px}
+.location-photo{min-height:320px;max-height:340px}
+.location-info{padding:28px}
+@media(max-width:1050px){
+ .hero-grid{min-height:auto}.hero-copy{padding:55px 25px 70px}.hero-photo{min-height:390px}
+ .service-bar{margin:0 auto;border-radius:0 0 18px 18px}
+ .location-box{grid-template-columns:.9fr 1.1fr}.location-photo{max-height:330px}
+}
+@media(max-width:680px){
+ header{height:68px}.logo{font-size:25px}.hero-copy{padding:45px 6px 60px}.hero h1{font-size:43px}.hero-desc{font-size:16px}.hero-photo{min-height:270px}
+ .service-bar{margin:0;border-radius:0;padding:18px 20px}.location-box{grid-template-columns:1fr}.location-photo{min-height:230px;max-height:250px}
+}
 </style>
 <script type="application/ld+json">
 {
@@ -66,9 +97,9 @@ footer{background:#052b5b;color:#cfe3fb;padding:34px 0 70px}.footer-keywords{fon
 </script>
 </head>
 <body>
-<header><div class="wrap nav"><a class="logo" href="#top" aria-label="고양시 컴퓨터 수리 이레컴"><span class="logo-icon"></span>이레컴</a><nav aria-label="주요 메뉴"><a href="#services">서비스 안내</a><a href="#cases">수리 사례</a><a href="#process">출장 수리 안내</a><a href="#regions">서비스 지역</a><a href="#location">매장 위치</a><a href="#contact">고객센터</a></nav><a class="nav-cta" href="tel:01033678253">☎ 상담문의 010-3367-8253</a></div></header>
+<header><div class="wrap nav"><a class="logo" href="#top" aria-label="고양시 컴퓨터 수리 이레컴"><span class="logo-icon"></span>이레컴</a><nav aria-label="주요 메뉴"><a href="#services">서비스 안내</a><a href="#process">출장 수리 안내</a><a href="#cases">수리 사례</a><a href="#contact">고객센터</a><a href="#location">오시는 길</a></nav><a class="nav-cta" href="tel:01033678253">☎ 상담문의 010-3367-8253</a></div></header>
 <main id="top">
-<section class="hero"><div class="wrap hero-grid"><div class="hero-copy"><div class="eyebrow">정직하고 빠른 컴퓨터 수리 전문</div><h1>고양시 컴퓨터 수리<span>이레컴</span></h1><p class="hero-desc">고양시 전지역 출장 수리! 가정·사무실·매장 어디든 전문가가 직접 방문하여 신속하고 정확하게 해결해드립니다.</p><div class="hero-badges"><span class="badge">✓ 빠르고 친절한 상담</span><span class="badge">✓ 믿을 수 있는 기술력</span><span class="badge">✓ 정확한 진단</span><span class="badge">✓ 합리적인 수리비</span></div></div><div class="hero-photo"><img src="hero-real.jpg" alt="이레컴 컴퓨터 수리 실제 작업환경과 조립PC" fetchpriority="high"></div></div></section>
+<section class="hero"><div class="wrap hero-grid"><div class="hero-copy"><div class="eyebrow">빠르고 정확한 컴퓨터 수리 전문</div><h1>고양시 컴퓨터 수리<span>이레컴</span></h1><p class="hero-desc">고양시 전지역 출장 수리! 가정·사무실·매장 어디든<br>전문가가 직접 방문하여 신속하고 정확하게 해결해드립니다.</p><div class="hero-badges"><span class="badge">✓ 빠르고 친절한 상담</span><span class="badge">✓ 믿을 수 있는 기술력</span><span class="badge">✓ 정확한 진단</span><span class="badge">✓ 합리적인 수리비</span></div></div><div class="hero-photo"><img src="hero-real.jpg" alt="이레컴 컴퓨터 수리 실제 작업환경과 조립PC" fetchpriority="high"></div></div></section>
 <section class="service-bar wrap" id="services" aria-label="이레컴 주요 서비스"><article class="service"><div class="service-icon">▣</div><h2>컴퓨터 수리</h2><p>부팅불량, 속도저하, 오류해결</p></article><article class="service"><div class="service-icon">▱</div><h2>노트북 수리</h2><p>업그레이드 · 고장수리</p></article><article class="service"><div class="service-icon">▤</div><h2>조립PC 및 업그레이드</h2><p>부품교체, 성능향상, 맞춤견적</p></article><article class="service"><div class="service-icon">⊞</div><h2>프로그램 설치</h2><p>윈도우 · 한글 · 오피스</p></article><article class="service"><div class="service-icon">▱</div><h2>컴퓨터 판매</h2><p>조립PC, 노트북 판매, 주변기기</p></article></section>
 <section class="trust"><div class="wrap trust-grid"><article class="trust-item"><div class="trust-icon">✓</div><div><h3>신속한 출장 서비스</h3><p>고양시 전지역 빠른 방문<br>(화정, 일산, 은평구 포함)</p></div></article><article class="trust-item"><div class="trust-icon">●</div><div><h3>정확한 진단 & 합리적인 비용</h3><p>불필요한 수리 없이<br>정확한 진단으로 투명한 비용</p></div></article><article class="trust-item"><div class="trust-icon">◉</div><div><h3>친절한 고객 상담</h3><p>궁금한 점은 언제든지<br>편하게 문의하세요</p></div></article><article class="trust-item"><div class="trust-icon">★</div><div><h3>다년간의 수리 경험</h3><p>다양한 기종과 문제 해결로<br>믿을 수 있는 기술력</p></div></article></div></section>
 <section class="content"><div class="wrap"><div class="section-title"><h2>고양시 컴퓨터 수리 전문 서비스</h2><p>수리부터 업그레이드·조립PC·프로그램 설치·컴퓨터 판매까지 상담합니다.</p></div><div class="grid"><article class="card"><span class="tag">COMPUTER REPAIR</span><h3>고양 컴퓨터수리·출장수리</h3><p>전원 불량, 부팅 문제, 화면 문제, 갑작스러운 오류, 느려진 컴퓨터 등 다양한 증상을 점검합니다.</p></article><article class="card"><span class="tag">NOTEBOOK</span><h3>노트북 업그레이드·고장수리</h3><p>노트북 내부 점검과 저장장치·메모리 업그레이드, 속도 저하 및 각종 고장 증상을 상담합니다.</p></article><article class="card"><span class="tag">CUSTOM PC</span><h3>조립PC·PC 업그레이드</h3><p>사무용·게임용·작업용 등 사용 목적과 예산에 맞춰 부품 구성과 업그레이드를 안내합니다.</p></article><article class="card"><span class="tag">SOFTWARE</span><h3>프로그램 설치</h3><p>윈도우, 한글, 오피스 등 PC 사용에 필요한 프로그램 설치와 기본 설정을 상담합니다.</p></article><article class="card"><span class="tag">SALES</span><h3>컴퓨터 판매</h3><p>조립PC, 노트북 판매와 주변기기 구매 상담을 사용 목적에 맞춰 안내합니다.</p></article><article class="card"><span class="tag">ON-SITE</span><h3>가정·사무실·매장 출장</h3><p>고양시와 인근 지역에서 방문이 필요한 컴퓨터 문제를 현장에서 확인하고 상담합니다.</p></article></div></div></section>
