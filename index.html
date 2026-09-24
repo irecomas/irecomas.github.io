@@ -164,3 +164,50 @@ nav{gap:42px;font-size:16px}
 <div class="mobile"><a href="tel:01033678253">📞 전화 상담 010-3367-8253</a></div>
 </body>
 </html>
+
+<!-- FINAL MOBILE ALIGNMENT PATCH -->
+<style>
+html,body{width:100%;max-width:100%;overflow-x:hidden}
+img{max-width:100%;height:auto}
+@media(max-width:680px){
+  .wrap{width:100%;max-width:100%;padding-left:14px;padding-right:14px}
+  header{width:100%;left:0;right:0}
+  .nav{width:100%;padding:0}
+  .hero{width:100%;overflow:hidden}
+  .hero-grid{width:100%;margin:0;padding:0}
+  .hero-copy{width:100%;padding:24px 14px 15px}
+  .hero h1{width:100%;max-width:100%;white-space:normal;overflow-wrap:break-word}
+  .hero-desc{width:100%;max-width:330px}
+  .hero-photo{width:100%;height:auto;min-height:0;max-height:none;aspect-ratio:16/9}
+  .hero-photo img{width:100%;height:100%;object-fit:cover}
+  .service-bar{width:100%;margin:0;padding:0;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .service{min-width:0;width:100%;overflow:hidden}
+  .service:nth-child(5){grid-column:1 / -1}
+  .trust{width:100%}
+  .trust-grid{width:100%;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .trust-item{min-width:0;width:100%;padding:10px 4px}
+  section.content{width:100%}
+  .content>.wrap,.region>.wrap,.location>.wrap{width:100%}
+  .section-title h2,.section-title p{overflow-wrap:anywhere}
+  .grid,.process{width:100%}
+  .card,.step{min-width:0;width:100%;overflow:hidden}
+  .case-img{width:100%;height:auto;aspect-ratio:16/10}
+  .case-img img{width:100%;height:100%;object-fit:cover}
+  .region-box{width:100%;padding:20px 16px;overflow:hidden}
+  .chips{width:100%;min-width:0}
+  .chip{max-width:100%;overflow-wrap:anywhere}
+  .location-box{width:100%;grid-template-columns:minmax(0,1fr);gap:14px}
+  .location-photo{width:100%;min-height:0;max-height:none;aspect-ratio:16/10}
+  .location-photo img{width:100%;height:100%;object-fit:cover}
+  .location-info{width:100%;min-width:0;overflow:hidden}
+  .location-address,.location-note,.location-route{overflow-wrap:anywhere;word-break:keep-all}
+  .map-btn{box-sizing:border-box}
+  .contact{width:100%}
+  .contact-box{width:100%;min-width:0}
+  .contact-box>div{min-width:0;max-width:100%}
+  .phone{overflow-wrap:anywhere}
+  footer{width:100%;overflow:hidden}
+  .footer-keywords{overflow-wrap:anywhere;word-break:keep-all}
+  .mobile{width:100%;max-width:100%;left:0;right:0}
+}
+</style>
