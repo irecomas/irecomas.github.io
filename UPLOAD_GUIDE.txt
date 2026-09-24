@@ -1,0 +1,11 @@
+이레컴 GitHub Pages 업로드용 최종 파일
+
+구조:
+index.html
+robots.txt
+README.txt
+image/
+  └─ 홈페이지 사진 전체
+
+GitHub에서 업로드할 때 image 폴더 안의 사진도 함께 올려 주세요.
+index.html의 이미지 경로는 image/사진파일.jpg 로 맞춰져 있습니다.

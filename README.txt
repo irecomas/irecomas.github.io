@@ -1,7 +1,7 @@
-# 이레컴 홈페이지 - GitHub Pages 최종본
+이레컴 GitHub Pages 최종본
 
-- 메인 파일: `index.html`
-- 이미지 폴더: `images/`
-- 모든 사진은 GitHub Pages에서 깨지지 않도록 상대경로(`images/...`)로 연결했습니다.
-- `index.html`을 GitHub 저장소의 루트에 올리면 됩니다.
-- 사진 파일명은 영문으로 통일해 한글/공백/괄호가 경로에 들어가 생길 수 있는 문제를 피했습니다.
+- index.html: SEO 강화 홈페이지
+- image/: 실제 이레컴 작업·매장 사진
+- robots.txt / sitemap.xml 포함
+- GitHub Pages 저장소의 main 브랜치에 폴더 구조 그대로 업로드하세요.
+- image 폴더를 반드시 함께 업로드해야 사진이 정상 표시됩니다.
